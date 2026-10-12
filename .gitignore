@@ -1,0 +1,3 @@
+# 本地脱敏配置（含真实项目名/用户名，绝不入库）
+scripts/.patterns.local
+.DS_Store

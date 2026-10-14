@@ -1,6 +1,9 @@
 # Agent Runbook：AI CLI 项目迁移执行手册
 
 > **你是 AI Agent，且被要求把一批项目从旧目录搬到新目录（可能还要改名）。**
+> ⚠️ **命令是 macOS 语法**：`launchctl`、`~/Library/LaunchAgents`、`sed -i ''`（GNU sed 上要**去掉**空引号）。**先按你的平台改写命令再执行**，不要照抄。
+> 流程与判断方法跨平台通用，变的只是命令。
+>
 > **执行流程**自包含——四个阶段照着做即可。只有两种情况需要翻仓库其它文档：
 > ① 涉及 ZCode 以外的 AI 工具 → 本仓库不覆盖，请查该工具官方文档
 > ② 需要理解某个机制的原理 → [`../docs/binding-mechanisms.md`](../docs/binding-mechanisms.md)
